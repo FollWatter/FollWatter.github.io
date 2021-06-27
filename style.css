@@ -1,0 +1,41 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+html{
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles{
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: #151414;
+  display: block;
+  border-radius: 2px;
+}
+.akeconsa-udaneles a span {
+  color: #f7f0f0;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
+}
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
